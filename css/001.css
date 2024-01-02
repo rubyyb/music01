@@ -326,10 +326,16 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 0 10px;
+    border-bottom: 1px solid #a6a6a6;
 }
 .section03 .song_list .item {
     width: calc(1110px / 6);
     padding: 12px 0;
+}
+.section03 .song_list .item:nth-child(1) {
+    border-bottom: 1px solid #fff;
+    z-index: 1;
+    margin-bottom: -1px;
 }
 .section03 .song_list .item figure {
     width: 60px;
@@ -358,7 +364,9 @@ body {
 }
 .section03 .music {
     width: 1110px;
-    border: 1px solid #a6a6a6;
+    border-bottom: 1px solid #a6a6a6;
+    border-left: 1px solid #a6a6a6;
+    border-right: 1px solid #a6a6a6;
     margin: 0 10px;
     display: flex;
     justify-content: space-between;
