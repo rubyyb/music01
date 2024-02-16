@@ -467,6 +467,7 @@ body {
 
 }
 .last .last_box {
+    height: 310px;
     display: flex;
     justify-content: space-between;
 }
